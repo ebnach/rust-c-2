@@ -1,0 +1,7 @@
+{
+    "name": "Rust Dev Container",
+    "image": "rust:latest",
+    "extensions": [
+        "github.copilot"
+    ]
+}

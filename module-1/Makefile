@@ -1,6 +1,5 @@
-# write Makefile for Rust project with format, lint, test, build, run, clean, and doc targets
-
 format:
+	@rustup component add rustfmt
 	cargo fmt
 
 lint:
@@ -10,7 +9,7 @@ test:
 	cargo test
 
 build:
-	cargo build
+	cargo build --release
 
 run:
 	cargo run
