@@ -1,1 +1,1 @@
-searchState.loadedDescShard("module_1", 0, "This is a documentation comment for the <code>module_1</code> crate.")
+searchState.loadedDescShard("module_1", 0, "This is a documentation comment for the <code>module_1</code> crate.\nReturns the argument unchanged.\nCalls <code>U::from(self)</code>.")
