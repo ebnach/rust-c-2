@@ -1,1 +1,1 @@
-searchState.loadedDescShard("module_1", 0, "")
+searchState.loadedDescShard("module_1", 0, "This is a documentation comment for the <code>module_1</code> crate.")
