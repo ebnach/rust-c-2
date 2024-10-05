@@ -25,3 +25,13 @@ jobs:
     - name: Run tests
       run: make test
       working-directory: module-1
+
+    - name: Generate documentation
+      run: make doc
+      working-directory: module-1
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: module-1/target/doc

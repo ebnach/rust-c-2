@@ -18,6 +18,6 @@ clean:
 	cargo clean
 
 doc:
-	cargo doc --no-deps --open
+	cargo doc --no-deps
 
 .PHONY: format lint test build run clean doc
